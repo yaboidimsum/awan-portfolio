@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header>
+      <div class="container">
+        <div class="relative flex items-center justify-between">
+          <div class="px-4">
+            <a
+              href="#Home"
+              class="block py-6 font-dmmono text-xl font-medium text-white"
+            >
+              Awan⛅
+            </a>
+          </div>
+          <div class="flex items-center px-4">
+            <button
+            id="hamburger"
+            name="hamburger"
+            type="button"
+            class="block absolute right-4 2xl:hidden xl:hidden lg:hidden"
+          >
+            <span
+              class="hamburger-line origin-top-left transition duration-300 ease-in-out"
+            ></span>
+            <span
+              class="hamburger-line transition duration-300 ease-in-out"
+            ></span>
+            <span
+              class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+            ></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header Ends  -->
+    <!-- Hero Starts -->
+    <section id="home" class="pt-[200px] pb-[200px]">
+      <div class="container">
+        <div class="flex flex-wrap ">
+          <div class="w-full self-center px-4 gap-8">
+            <div class="flex flex-col items-center">
+            <h3 class="text-white font-dmmono text-center text-sm">Welcome to Awan's Website,i am a</h3>
+            <!-- <h1 class="text-green-neon font-dmmono text-center text-3xl">UI/UX Designer</h1> -->
+            <h1 class="text-green-neon font-dmmono text-center text-3xl">
+              <span href="" class="typewrite" data-period="2000" data-type='[ "UI/UX Designer.", "Junior Front-End Dev.", "3D Artist.", "Script Kiddie." ]'>
+                <span class="animate-pulse wrap"></span>
+              </span>
+            </h1>
+            <div class="flex gap-8 justify-between pt-5">
+            <div class="flex w-[50px] h-[50px] p-[12px] justify-center items-center bg-white cursor-pointer hover:bg-green-neon transition duration-300 ease-in-out">
+              <a href="https://github.com/yaboidimsum" target="_blank">
+              <img src="dist/social_media/Github.svg" alt="Github">
+            </a>
+          </div>
+            <div class="flex w-[50px] h-[50px] p-[12px] justify-center items-center bg-white cursor-pointer hover:bg-green-neon transition duration-300 ease-in-out">
+              <a href="https://www.instagram.com/dimasprihady/" target="_blank">
+                <img src="dist/social_media/Instagram.svg" alt="Instagram">
+              </a>
+            </div>
+            <div class="flex w-[50px] h-[50px] p-[12px] justify-center items-center bg-white cursor-pointer hover:bg-green-neon transition duration-300 ease-in-out">
+              <a href="https://www.linkedin.com/in/dimas-prihady-setyawan-47a66821a/" target="_blank">
+                <img src="dist/social_media/LinkedIn.svg" alt="Linkedin">
+              </a>
+            </div>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Ends -->
+    <!-- About Section Starts -->
+    <section id="about" class="pt-[100px] pb-[100px]">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 lg:w-1/2">
+            <h2 class="font-dmmono text-green-neon pb-4 text-xl">About Me</h2>
+            <img class="pb-8" src="./dist/logo if/if.svg" alt="Logo IF">
+            <p class="font-dmmono text-white text-justify">My name is Awan, an Informatics Engineering Student at Institut Teknologi Sepuluh Nopember. I am also a script kiddie who does a lot of stuff because i am still searching my specific field in IT.</p>
+          </div>
+          <div class="w-full px-4 lg:w-1/2 lg:mt-0 mt-4">
+            <h2 class="font-dmmono text-green-neon pb-4 text-xl">Description</h2>
+            <img class="pb-3" width="230px" src="./dist/logo if/logo apollo.svg" alt="">
+            <p class="font-dmmono text-white text-justify">Apollo is my home and also known as C25. My journey in tech starts with UX Design and now i'm learning Web Developement especially Front-End. I am also have a hobby doing 3D render stuff with blender and i will put my works on this page later.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section Ends -->
+    <!-- Skills and Learning Starts -->
+    <section id="skills" class="pb-[50px]">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4">
+            <h2 class="font-dmmono text-green-neon pb-4 text-xl">Skills and Tools</h2>
+            <div class="grid lg:grid-rows-3 lg:grid-cols-3 grid-rows-6 grid-cols-1 gap-8">
+              <a href="https://www.bloodshed.net/" target="_blank" class="flex items-center "> 
+                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-36 w-full hover:bg-green-neon transition duration-300 ease-in-out">
+                <img src="./dist/skillstools/C++.svg" alt="C++">
+                <p class="text-2xl font-medium font-dmmono">C++</p>
+              </div>
+              </a>
+              <a href="https://www.python.org/" target="_blank" class="flex items-center "> 
+                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-36 w-full hover:bg-green-neon transition duration-300 ease-in-out">
+                <img src="./dist/skillstools/Python.svg" alt="Python">
+                <p class="text-2xl font-medium font-dmmono text-justify">Python</p>
+              </div>
+              </a>
+              <a href="https://www.figma.com/" target="_blank" class="flex items-center "> 
+                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-36 w-full hover:bg-green-neon transition duration-300 ease-in-out">
+                <img src="./dist/skillstools/Figma/Type3.svg" alt="Figma">
+                <p class="text-2xl font-medium font-dmmono">Figma</p>
+              </div>
+              </a>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" class="flex items-center "> 
+                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-36 w-full hover:bg-green-neon transition duration-300 ease-in-out">
+                <img src="./dist/skillstools/HTML5.svg" alt="HTML">
+                <p class="text-2xl font-medium font-dmmono">HTML</p>
+              </div>
+              </a>
+              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" class="flex items-center "> 
+                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-36 w-full hover:bg-green-neon transition duration-300 ease-in-out">
+                <img src="./dist/skillstools/CSS3.svg" alt="CSS">
+                <p class="text-2xl font-medium font-dmmono">CSS</p>
+              </div>
+              </a>
+              <a href="https://tailwindcss.com/" target="_blank" class="flex items-center "> 
+                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-36 w-full hover:bg-green-neon transition duration-300 ease-in-out">
+                <img src="./dist/skillstools/TailwindCSS.svg" alt="Tailwind">
+                <p class="text-xl font-medium font-dmmono">Tailwind</p>
+              </div>
+              </a>
+            </div>
+            <h2 class="pt-4 lg:pt-2 font-dmmono text-green-neon pb-4 text-xl">Ongoing Learning</h2>
+            <div class="grid lg:grid-rows-3 lg:grid-cols-3 grid-rows-6 grid-cols-1 gap-8">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank" class="flex items-center "> 
+                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-40 w-full hover:bg-green-neon transition duration-300 ease-in-out">
+                <img src="./dist/skillstools/Javascript.svg" alt="Javascript">
+                <p class="text-xl font-medium font-dmmono">Javascript</p>
+              </div>
+              </a>
+              <a href="https://www.typescriptlang.org/" target="_blank" class="flex items-center "> 
+                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-36 w-full hover:bg-green-neon transition duration-300 ease-in-out">
+                <img src="./dist/skillstools/TypeScript.svg" alt="Typescript">
+                <p class="text-xl font-medium font-dmmono text-justify md:text-xl ">Typescript</p>
+              </div>
+              </a>
+              <a href="https://react.dev/learn" target="_blank" class="flex items-center "> 
+                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-36 w-full hover:bg-green-neon transition duration-300 ease-in-out">
+                <img src="./dist/skillstools/React.svg" alt="React">
+                <p class="text-2xl font-medium font-dmmono">React</p>
+              </div>
+              </a>
+              <a href="https://www.docker.com/" target="_blank" class="flex items-center "> 
+                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-36 w-full hover:bg-green-neon transition duration-300 ease-in-out">
+                <img src="./dist/skillstools/Docker.svg" alt="Docker">
+                <p class="text-2xl font-medium font-dmmono">Docker</p>
+              </div>
+              </a>
+              <a href="https://ant.design/" target="_blank" class="flex items-center "> 
+                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-36 w-full hover:bg-green-neon transition duration-300 ease-in-out">
+                <img src="./dist/skillstools/Ant Design.svg" alt="Ant-Design">
+                <p class="text-xl font-medium font-dmmono">Ant Design</p>
+              </div>
+              </a>
+              <a href="https://headlessui.com/" target="_blank" class="flex items-center "> 
+                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-36 w-full hover:bg-green-neon transition duration-300 ease-in-out">
+                <img src="./dist/skillstools/Headless UI.svg" alt="Headless UI">
+                <p class="text-xl font-medium font-dmmono">Headless UI</p>
+              </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills and Learning Ends -->
+    <!-- Past Clients Starts-->
+    <section id="skills" class="pb-[50px]">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4">
+            <h2 class="font-dmmono text-green-neon pb-4 text-xl">Past Clients</h2>
+            <div class="grid lg:grid-rows-3 lg:grid-cols-3 grid-rows-6 grid-cols-1 gap-8">
+              <a href="https://www.bloodshed.net/" target="_blank" class="flex items-center "> 
+                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-36 w-full hover:bg-green-neon transition duration-300 ease-in-out">
+                <img src="./dist/logo client/ITS EXPO.svg" alt="ITS EXPO">
+                <p class="text-xl font-medium font-dmmono">ITS EXPO</p>
+              </div>
+              </a>
+              <a href="https://www.python.org/" target="_blank" class="flex items-center "> 
+                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-36 w-full hover:bg-green-neon transition duration-300 ease-in-out">
+                <img src="./dist/logo client/UKM EXPO.svg" alt="UKM EXPO">
+                <p class="text-xl font-medium font-dmmono text-justify">UKM EXPO</p>
+              </div>
+              </a>
+              <a href="https://www.figma.com/" target="_blank" class="flex items-center "> 
+                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-36 w-full hover:bg-green-neon transition duration-300 ease-in-out">
+                <img src="./dist/logo client/Schematics.svg" alt="Schematics">
+                <p class="text-xl font-medium font-dmmono">Schematics 2023</p>
+              </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Past Clients End -->
+    <!-- Portfolio Starts -->
+    <section id="portfolio" class="pb-[50px]">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4">
+            <h2 class="font-dmmono text-green-neon pb-4 text-xl">Portfolio</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Ends -->
+  </body>
+</html>
+
+<script>
+  var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.05em solid #0FFF27}";
+        document.body.appendChild(css);
+    };
+</script>
+
