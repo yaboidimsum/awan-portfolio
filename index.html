@@ -14,173 +14,362 @@
   </head>
   <body>
     <!-- Header Start -->
-    <header>
+    <header
+      class="bg-transparent z-1 absolute left-0 top-0 flex w-full items-center"
+    >
       <div class="container">
         <div class="relative flex items-center justify-between">
           <div class="px-4">
-            <a
-              href="#Home"
-              class="block py-6 font-dmmono text-xl font-medium text-white"
+            <a href="#home" class="block py-6 font-dmmono text-lg text-white"
+              >Awan</a
             >
-              Awan⛅
-            </a>
           </div>
           <div class="flex items-center px-4">
             <button
-            id="hamburger"
-            name="hamburger"
-            type="button"
-            class="block absolute right-4 2xl:hidden xl:hidden lg:hidden"
-          >
-            <span
-              class="hamburger-line origin-top-left transition duration-300 ease-in-out"
-            ></span>
-            <span
-              class="hamburger-line transition duration-300 ease-in-out"
-            ></span>
-            <span
-              class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
-            ></span>
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="absolute right-4 block lg:hidden"
+            >
+              <span
+                class="hamburger-line origin-top-left transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"
+              ></span>
+            </button>
+            <nav
+              id="nav-menu"
+              class="lg:bg-transparent lg:shadow-none absolute right-4 top-full hidden w-full max-w-[250px] rounded-md bg-white py-5 shadow-lg lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-dark-black"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="mx-8 flex py-2 font-dmmono text-dark-black transition duration-300 ease-in-out group-hover:text-green-neon lg:text-white"
+                    >Home</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#about"
+                    class="mx-8 flex py-2 font-dmmono text-dark-black transition duration-300 ease-in-out group-hover:text-green-neon lg:text-white"
+                    >About Me</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#skills"
+                    class="mx-8 flex py-2 font-dmmono text-dark-black transition duration-300 ease-in-out group-hover:text-green-neon lg:text-white"
+                    >Skills and Learning</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#client"
+                    class="mx-8 flex py-2 font-dmmono text-dark-black transition duration-300 ease-in-out group-hover:text-green-neon lg:text-white"
+                    >Clients</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#portfolio"
+                    class="mx-8 flex py-2 font-dmmono text-dark-black transition duration-300 ease-in-out group-hover:text-green-neon lg:text-white"
+                    >Portfolio</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#contact"
+                    class="mx-8 flex py-2 font-dmmono text-dark-black transition duration-300 ease-in-out group-hover:text-green-neon lg:text-white"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
       </div>
     </header>
-    <!-- Header Ends  -->
+    <!-- Header Ends -->
+
     <!-- Hero Starts -->
-    <section id="home" class="pt-[200px] pb-[200px]">
+    <section id="home" class="pb-[500px] pt-[200px]">
       <div class="container">
-        <div class="flex flex-wrap ">
-          <div class="w-full self-center px-4 gap-8">
+        <div class="flex flex-wrap">
+          <div class="w-full gap-8 self-center px-4">
             <div class="flex flex-col items-center">
-            <h3 class="text-white font-dmmono text-center text-sm">Welcome to Awan's Website,i am a</h3>
-            <!-- <h1 class="text-green-neon font-dmmono text-center text-3xl">UI/UX Designer</h1> -->
-            <h1 class="text-green-neon font-dmmono text-center text-3xl">
-              <span href="" class="typewrite" data-period="2000" data-type='[ "UI/UX Designer", "Junior Front-End Dev", "3D Artist", "Script Kiddie","Mess","#%621^*3103(*)", "[404] Error", "Sorry for the inconvenience", "I will reset this...", "UI/UX Designer", "Junior Front-End Dev", "3D Artist", "Script Kiddie", "Why are you still here? Scroll down", "Oh well nothing to see here anymore so", "Enjoy this loop then" ]'>
-                <span class="animate-pulse wrap"></span>
-              </span>
-            </h1>
-            <div class="flex gap-8 justify-between pt-5">
-            <div class="flex w-[50px] h-[50px] p-[12px] justify-center items-center bg-white cursor-pointer hover:bg-green-neon transition duration-300 ease-in-out">
-              <a href="https://github.com/yaboidimsum" target="_blank">
-              <img src="dist/social_media/Github.svg" alt="Github">
-            </a>
-          </div>
-            <div class="flex w-[50px] h-[50px] p-[12px] justify-center items-center bg-white cursor-pointer hover:bg-green-neon transition duration-300 ease-in-out">
-              <a href="https://www.instagram.com/dimasprihady/" target="_blank">
-                <img src="dist/social_media/Instagram.svg" alt="Instagram">
-              </a>
+              <h3 class="text-center font-dmmono text-sm text-white">
+                Welcome to Awan's Website,i am a
+              </h3>
+              <!-- <h1 class="text-green-neon font-dmmono text-center text-3xl">UI/UX Designer</h1> -->
+              <h1 class="text-center font-dmmono text-3xl text-green-neon">
+                <span
+                  href=""
+                  class="typewrite"
+                  data-period="2000"
+                  data-type='[ "UI/UX Designer", "Junior Front-End Dev", "3D Art Enthusiast", "Script Kiddie","Mess","#%621^*3103(*)", "[404] Error", "Sorry for the inconvenience", "I will reset this...", "UI/UX Designer", "Junior Front-End Dev", "3D Art Enthusiast", "Script Kiddie", "Why are you still here? Scroll down", "Oh well nothing to see here anymore so", "Enjoy this loop then" ]'
+                >
+                  <span class="wrap animate-pulse"></span>
+                </span>
+              </h1>
+              <div class="flex justify-between gap-8 pt-5">
+                <div
+                  class="flex h-[50px] w-[50px] cursor-pointer items-center justify-center bg-white p-[12px] transition duration-300 ease-in-out hover:bg-green-neon"
+                >
+                  <a href="https://github.com/yaboidimsum" target="_blank">
+                    <img src="dist/social_media/Github.svg" alt="Github" />
+                  </a>
+                </div>
+                <div
+                  class="flex h-[50px] w-[50px] cursor-pointer items-center justify-center bg-white p-[12px] transition duration-300 ease-in-out hover:bg-green-neon"
+                >
+                  <a
+                    href="https://www.instagram.com/dimasprihady/"
+                    target="_blank"
+                  >
+                    <img
+                      src="dist/social_media/Instagram.svg"
+                      alt="Instagram"
+                    />
+                  </a>
+                </div>
+                <div
+                  class="flex h-[50px] w-[50px] cursor-pointer items-center justify-center bg-white p-[12px] transition duration-300 ease-in-out hover:bg-green-neon"
+                >
+                  <a
+                    href="https://www.linkedin.com/in/dimas-prihady-setyawan-47a66821a/"
+                    target="_blank"
+                  >
+                    <img src="dist/social_media/LinkedIn.svg" alt="Linkedin" />
+                  </a>
+                </div>
+              </div>
             </div>
-            <div class="flex w-[50px] h-[50px] p-[12px] justify-center items-center bg-white cursor-pointer hover:bg-green-neon transition duration-300 ease-in-out">
-              <a href="https://www.linkedin.com/in/dimas-prihady-setyawan-47a66821a/" target="_blank">
-                <img src="dist/social_media/LinkedIn.svg" alt="Linkedin">
-              </a>
-            </div>
-          </div>
-          </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Hero Ends -->
     <!-- About Section Starts -->
-    <section id="about" class="pt-[100px] pb-[100px]">
+    <section id="about" class="pb-[100px] pt-[100px]">
       <div class="container">
         <div class="flex flex-wrap">
           <div class="w-full px-4 lg:w-1/2">
-            <h2 class="font-dmmono text-green-neon pb-4 text-xl">About Me</h2>
-            <img class="pb-8" src="./dist/logo if/if.svg" alt="Logo IF">
-            <p class="font-dmmono text-white text-justify">My name is Awan, an Informatics Engineering Student at Institut Teknologi Sepuluh Nopember. I am also a script kiddie who does a lot of stuff because i am still searching my specific field in IT.</p>
+            <h2 class="pb-4 font-dmmono text-xl text-green-neon">About Me</h2>
+            <img class="pb-8" src="./dist/logo if/if.svg" alt="Logo IF" />
+            <p class="text-justify font-dmmono text-white">
+              My name is Awan, an Informatics Engineering Student at Institut
+              Teknologi Sepuluh Nopember. I am also a script kiddie who does a
+              lot of stuff because i am still searching my specific field in IT.
+            </p>
           </div>
-          <div class="w-full px-4 lg:w-1/2 lg:mt-0 mt-4">
-            <h2 class="font-dmmono text-green-neon pb-4 text-xl">Description</h2>
-            <img class="pb-3" width="230px" src="./dist/logo if/logo apollo.svg" alt="">
-            <p class="font-dmmono text-white text-justify">Apollo is my home and also known as C25. My journey in tech starts with UX Design and now i'm learning Web Developement especially Front-End. I am also have a hobby doing 3D render stuff with blender and i will put my works on this page later.</p>
+          <div class="mt-4 w-full px-4 lg:mt-0 lg:w-1/2">
+            <h2 class="pb-4 font-dmmono text-xl text-green-neon">
+              Description
+            </h2>
+            <img
+              class="pb-3"
+              width="230px"
+              src="./dist/logo if/logo apollo.svg"
+              alt=""
+            />
+            <p class="text-justify font-dmmono text-white">
+              Apollo is my home and also known as C25. My journey in tech starts
+              with UX Design and now i'm learning Web Developement especially
+              Front-End. I am also have a hobby doing 3D render stuff with
+              blender and i will put my works on this page later.
+            </p>
           </div>
         </div>
       </div>
     </section>
     <!-- About Section Ends -->
     <!-- Skills and Learning Starts -->
-    <section id="skills" class="pb-[50px]">
+    <section id="skills" class="pb-16 pt-[100px]">
       <div class="container">
         <div class="flex flex-wrap">
           <div class="w-full px-4">
-            <h2 class="font-dmmono text-green-neon pb-4 text-xl">Skills and Tools</h2>
-            <div class="grid lg:grid-rows-3 lg:grid-cols-3 grid-rows-6 grid-cols-1 gap-8">
-              <a href="https://www.bloodshed.net/" target="_blank" class="flex items-center "> 
-                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-36 w-full hover:bg-green-neon transition duration-300 ease-in-out">
-                <img src="./dist/skillstools/C++.svg" alt="C++">
-                <p class="text-2xl font-medium font-dmmono">C++</p>
-              </div>
+            <h2 class="pb-4 font-dmmono text-xl text-green-neon">
+              Skills and Tools
+            </h2>
+            <div
+              class="grid grid-cols-1 grid-rows-6 gap-8 lg:grid-cols-3 lg:grid-rows-2"
+            >
+              <a
+                href="https://www.bloodshed.net/"
+                target="_blank"
+                class="flex items-center"
+              >
+                <div
+                  class="flex w-full items-center gap-14 bg-white py-2 pl-2 pr-36 transition duration-300 ease-in-out hover:bg-green-neon"
+                >
+                  <img src="./dist/skillstools/C++.svg" alt="C++" />
+                  <p class="font-dmmono text-2xl font-medium">C++</p>
+                </div>
               </a>
-              <a href="https://www.python.org/" target="_blank" class="flex items-center "> 
-                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-36 w-full hover:bg-green-neon transition duration-300 ease-in-out">
-                <img src="./dist/skillstools/Python.svg" alt="Python">
-                <p class="text-2xl font-medium font-dmmono text-justify">Python</p>
-              </div>
+              <a
+                href="https://www.python.org/"
+                target="_blank"
+                class="flex items-center"
+              >
+                <div
+                  class="flex w-full items-center gap-14 bg-white py-2 pl-2 pr-36 transition duration-300 ease-in-out hover:bg-green-neon"
+                >
+                  <img src="./dist/skillstools/Python.svg" alt="Python" />
+                  <p class="text-justify font-dmmono text-2xl font-medium">
+                    Python
+                  </p>
+                </div>
               </a>
-              <a href="https://www.figma.com/" target="_blank" class="flex items-center "> 
-                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-36 w-full hover:bg-green-neon transition duration-300 ease-in-out">
-                <img src="./dist/skillstools/Figma/Type3.svg" alt="Figma">
-                <p class="text-2xl font-medium font-dmmono">Figma</p>
-              </div>
+              <a
+                href="https://www.figma.com/"
+                target="_blank"
+                class="flex items-center"
+              >
+                <div
+                  class="flex w-full items-center gap-14 bg-white py-2 pl-2 pr-36 transition duration-300 ease-in-out hover:bg-green-neon"
+                >
+                  <img src="./dist/skillstools/Figma/Type3.svg" alt="Figma" />
+                  <p class="font-dmmono text-2xl font-medium">Figma</p>
+                </div>
               </a>
-              <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" class="flex items-center "> 
-                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-36 w-full hover:bg-green-neon transition duration-300 ease-in-out">
-                <img src="./dist/skillstools/HTML5.svg" alt="HTML">
-                <p class="text-2xl font-medium font-dmmono">HTML</p>
-              </div>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                target="_blank"
+                class="flex items-center"
+              >
+                <div
+                  class="flex w-full items-center gap-14 bg-white py-2 pl-2 pr-36 transition duration-300 ease-in-out hover:bg-green-neon"
+                >
+                  <img src="./dist/skillstools/HTML5.svg" alt="HTML" />
+                  <p class="font-dmmono text-2xl font-medium">HTML</p>
+                </div>
               </a>
-              <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" class="flex items-center "> 
-                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-36 w-full hover:bg-green-neon transition duration-300 ease-in-out">
-                <img src="./dist/skillstools/CSS3.svg" alt="CSS">
-                <p class="text-2xl font-medium font-dmmono">CSS</p>
-              </div>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                target="_blank"
+                class="flex items-center"
+              >
+                <div
+                  class="flex w-full items-center gap-14 bg-white py-2 pl-2 pr-36 transition duration-300 ease-in-out hover:bg-green-neon"
+                >
+                  <img src="./dist/skillstools/CSS3.svg" alt="CSS" />
+                  <p class="font-dmmono text-2xl font-medium">CSS</p>
+                </div>
               </a>
-              <a href="https://tailwindcss.com/" target="_blank" class="flex items-center "> 
-                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-36 w-full hover:bg-green-neon transition duration-300 ease-in-out">
-                <img src="./dist/skillstools/TailwindCSS.svg" alt="Tailwind">
-                <p class="text-xl font-medium font-dmmono">Tailwind</p>
-              </div>
+              <a
+                href="https://tailwindcss.com/"
+                target="_blank"
+                class="flex items-center"
+              >
+                <div
+                  class="flex w-full items-center gap-14 bg-white py-2 pl-2 pr-36 transition duration-300 ease-in-out hover:bg-green-neon"
+                >
+                  <img
+                    src="./dist/skillstools/TailwindCSS.svg"
+                    alt="Tailwind"
+                  />
+                  <p class="font-dmmono text-xl font-medium">Tailwind</p>
+                </div>
               </a>
             </div>
-            <h2 class="pt-4 lg:pt-2 font-dmmono text-green-neon pb-4 text-xl">Ongoing Learning</h2>
-            <div class="grid lg:grid-rows-3 lg:grid-cols-3 grid-rows-6 grid-cols-1 gap-8">
-              <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank" class="flex items-center "> 
-                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-40 w-full hover:bg-green-neon transition duration-300 ease-in-out">
-                <img src="./dist/skillstools/Javascript.svg" alt="Javascript">
-                <p class="text-xl font-medium font-dmmono">Javascript</p>
-              </div>
+            <h2 class="pb-4 pt-4 font-dmmono text-xl text-green-neon lg:pt-10">
+              Ongoing Learning
+            </h2>
+            <div
+              class="grid grid-cols-1 grid-rows-6 gap-8 lg:grid-cols-3 lg:grid-rows-2"
+            >
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/javascript"
+                target="_blank"
+                class="flex items-center"
+              >
+                <div
+                  class="flex w-full items-center gap-14 bg-white py-2 pl-2 pr-40 transition duration-300 ease-in-out hover:bg-green-neon"
+                >
+                  <img
+                    src="./dist/skillstools/Javascript.svg"
+                    alt="Javascript"
+                  />
+                  <p class="font-dmmono text-xl font-medium">Javascript</p>
+                </div>
               </a>
-              <a href="https://www.typescriptlang.org/" target="_blank" class="flex items-center "> 
-                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-36 w-full hover:bg-green-neon transition duration-300 ease-in-out">
-                <img src="./dist/skillstools/TypeScript.svg" alt="Typescript">
-                <p class="text-xl font-medium font-dmmono text-justify md:text-xl ">Typescript</p>
-              </div>
+              <a
+                href="https://www.typescriptlang.org/"
+                target="_blank"
+                class="flex items-center"
+              >
+                <div
+                  class="flex w-full items-center gap-14 bg-white py-2 pl-2 pr-36 transition duration-300 ease-in-out hover:bg-green-neon"
+                >
+                  <img
+                    src="./dist/skillstools/TypeScript.svg"
+                    alt="Typescript"
+                  />
+                  <p
+                    class="text-justify font-dmmono text-xl font-medium md:text-xl"
+                  >
+                    Typescript
+                  </p>
+                </div>
               </a>
-              <a href="https://react.dev/learn" target="_blank" class="flex items-center "> 
-                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-36 w-full hover:bg-green-neon transition duration-300 ease-in-out">
-                <img src="./dist/skillstools/React.svg" alt="React">
-                <p class="text-2xl font-medium font-dmmono">React</p>
-              </div>
+              <a
+                href="https://react.dev/learn"
+                target="_blank"
+                class="flex items-center"
+              >
+                <div
+                  class="flex w-full items-center gap-14 bg-white py-2 pl-2 pr-36 transition duration-300 ease-in-out hover:bg-green-neon"
+                >
+                  <img src="./dist/skillstools/React.svg" alt="React" />
+                  <p class="font-dmmono text-2xl font-medium">React</p>
+                </div>
               </a>
-              <a href="https://www.docker.com/" target="_blank" class="flex items-center "> 
-                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-36 w-full hover:bg-green-neon transition duration-300 ease-in-out">
-                <img src="./dist/skillstools/Docker.svg" alt="Docker">
-                <p class="text-2xl font-medium font-dmmono">Docker</p>
-              </div>
+              <a
+                href="https://www.docker.com/"
+                target="_blank"
+                class="flex items-center"
+              >
+                <div
+                  class="flex w-full items-center gap-14 bg-white py-2 pl-2 pr-36 transition duration-300 ease-in-out hover:bg-green-neon"
+                >
+                  <img src="./dist/skillstools/Docker.svg" alt="Docker" />
+                  <p class="font-dmmono text-2xl font-medium">Docker</p>
+                </div>
               </a>
-              <a href="https://ant.design/" target="_blank" class="flex items-center "> 
-                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-36 w-full hover:bg-green-neon transition duration-300 ease-in-out">
-                <img src="./dist/skillstools/Ant Design.svg" alt="Ant-Design">
-                <p class="text-xl font-medium font-dmmono">Ant Design</p>
-              </div>
+              <a
+                href="https://ant.design/"
+                target="_blank"
+                class="flex items-center"
+              >
+                <div
+                  class="flex w-full items-center gap-14 bg-white py-2 pl-2 pr-36 transition duration-300 ease-in-out hover:bg-green-neon"
+                >
+                  <img
+                    src="./dist/skillstools/Ant Design.svg"
+                    alt="Ant-Design"
+                  />
+                  <p class="font-dmmono text-xl font-medium">Ant Design</p>
+                </div>
               </a>
-              <a href="https://headlessui.com/" target="_blank" class="flex items-center "> 
-                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-36 w-full hover:bg-green-neon transition duration-300 ease-in-out">
-                <img src="./dist/skillstools/Headless UI.svg" alt="Headless UI">
-                <p class="text-xl font-medium font-dmmono">Headless UI</p>
-              </div>
+              <a
+                href="https://headlessui.com/"
+                target="_blank"
+                class="flex items-center"
+              >
+                <div
+                  class="flex w-full items-center gap-14 bg-white py-2 pl-2 pr-36 transition duration-300 ease-in-out hover:bg-green-neon"
+                >
+                  <img
+                    src="./dist/skillstools/Headless UI.svg"
+                    alt="Headless UI"
+                  />
+                  <p class="font-dmmono text-xl font-medium">Headless UI</p>
+                </div>
               </a>
             </div>
           </div>
@@ -189,29 +378,56 @@
     </section>
     <!-- Skills and Learning Ends -->
     <!-- Past Clients Starts-->
-    <section id="skills" class="pb-[50px]">
+    <section id="client" class="pb-[50px] pt-[100px]">
       <div class="container">
         <div class="flex flex-wrap">
           <div class="w-full px-4">
-            <h2 class="font-dmmono text-green-neon pb-4 text-xl">Past Clients</h2>
-            <div class="grid lg:grid-rows-3 lg:grid-cols-3 grid-rows-6 grid-cols-1 gap-8">
-              <a href="https://www.expo-its.com/" target="_blank" class="flex items-center "> 
-                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-36 w-full hover:bg-green-neon transition duration-300 ease-in-out">
-                <img src="./dist/logo client/ITS EXPO.svg" alt="ITS EXPO">
-                <p class="text-xl font-medium font-dmmono">ITS EXPO</p>
-              </div>
+            <h2 class="pb-4 font-dmmono text-xl text-green-neon">
+              Past Clients
+            </h2>
+            <div
+              class="grid grid-cols-1 grid-rows-3 gap-8 lg:grid-cols-3 lg:grid-rows-1"
+            >
+              <a
+                href="https://www.expo-its.com/"
+                target="_blank"
+                class="flex items-center"
+              >
+                <div
+                  class="flex w-full items-center gap-14 bg-white py-2 pl-2 pr-36 transition duration-300 ease-in-out hover:bg-green-neon"
+                >
+                  <img src="./dist/logo client/ITS EXPO.svg" alt="ITS EXPO" />
+                  <p class="font-dmmono text-xl font-medium">ITS EXPO</p>
+                </div>
               </a>
-              <a href="www.itsukmexpo.com" target="_blank" class="flex items-center "> 
-                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-36 w-full hover:bg-green-neon transition duration-300 ease-in-out">
-                <img src="./dist/logo client/UKM EXPO.svg" alt="UKM EXPO">
-                <p class="text-xl font-medium font-dmmono text-justify">UKM EXPO</p>
-              </div>
+              <a
+                href="www.itsukmexpo.com"
+                target="_blank"
+                class="flex items-center"
+              >
+                <div
+                  class="flex w-full items-center gap-14 bg-white py-2 pl-2 pr-36 transition duration-300 ease-in-out hover:bg-green-neon"
+                >
+                  <img src="./dist/logo client/UKM EXPO.svg" alt="UKM EXPO" />
+                  <p class="text-justify font-dmmono text-xl font-medium">
+                    UKM EXPO
+                  </p>
+                </div>
               </a>
-              <a href="https://schematics-its.com/" target="_blank" class="flex items-center "> 
-                <div class="bg-white flex items-center gap-14 py-2 pl-2 pr-36 w-full hover:bg-green-neon transition duration-300 ease-in-out">
-                <img src="./dist/logo client/Schematics.svg" alt="Schematics">
-                <p class="text-xl font-medium font-dmmono">Schematics 2023</p>
-              </div>
+              <a
+                href="https://schematics-its.com/"
+                target="_blank"
+                class="flex items-center"
+              >
+                <div
+                  class="flex w-full items-center gap-14 bg-white py-2 pl-2 pr-36 transition duration-300 ease-in-out hover:bg-green-neon"
+                >
+                  <img
+                    src="./dist/logo client/Schematics.svg"
+                    alt="Schematics"
+                  />
+                  <p class="font-dmmono text-xl font-medium">Schematics 2023</p>
+                </div>
               </a>
             </div>
           </div>
@@ -220,141 +436,256 @@
     </section>
     <!-- Past Clients End -->
     <!-- Portfolio Starts -->
-    <section id="portfolio" class="pb-[50px]">
+    <section id="portfolio" class="pb-4 pt-[100px]">
       <div class="container">
         <div class="w-full px-4">
-          <h2 class="font-dmmono text-green-neon pb-4 text-xl">Portfolio</h2>
+          <h2 class="pb-4 font-dmmono text-xl text-green-neon">Portfolio</h2>
         </div>
         <div class="flex flex-wrap">
-          <div class="w-full px-4 lg:w-1/2 ">
+          <div class="w-full px-4 lg:w-1/2">
             <div class="flex flex-col justify-center gap-8">
-              <img src="./dist/portfolio/Landing ITS EXPO.png" alt="">
+              <img src="./dist/portfolio/Landing ITS EXPO.png" alt="" />
               <div class="flex flex-col items-start gap-8">
-                  <div>
-                <h3 class="text-white text-2xl text-justify font-medium font-dmmono">ITS EXPO 2023</h3>
-                <p class="text-grey opacity-50 text-xl text-justify font-normal font-dmmono">UI/UX Design, Website Design, Design System</p>
-                 </div>
-                 <div>
-                  <a href="https://expo-its.com/" target="_blank" class="porto flex items-start gap-2 self-stretch bg-opacity-0">
-                  <h3 class="text-white text-2xl text-justify font-normal font-dmmono">Visit ITS EXPO 2023</h3>
-                  <img src="./dist/arrow/arrow-sm-up.svg" alt="">
-                </a>
-                  <button class="porto flex items-start gap-2 self-stretch">
-                  <h3 class="text-white text-2xl text-justify font-normal font-dmmono">Figma ITS EXPO 2023</h3>
-                  <img src="./dist/arrow/arrow-sm-up.svg" alt="">
-                </button>
-                   </div>
+                <div>
+                  <h3
+                    class="text-justify font-dmmono text-2xl font-medium text-white"
+                  >
+                    ITS EXPO 2023
+                  </h3>
+                  <p
+                    class="text-justify font-dmmono text-xl font-normal text-grey opacity-50"
+                  >
+                    UI/UX Design, Website Design, Design System
+                  </p>
                 </div>
+                <div>
+                  <a
+                    href="https://expo-its.com/"
+                    target="_blank"
+                    class="porto flex items-start gap-2 self-stretch bg-opacity-0"
+                  >
+                    <h3
+                      class="text-justify font-dmmono text-2xl font-normal text-white"
+                    >
+                      Visit ITS EXPO 2023
+                    </h3>
+                    <img src="./dist/arrow/arrow-sm-up.svg" alt="" />
+                  </a>
+                  <button class="porto flex items-start gap-2 self-stretch">
+                    <h3
+                      class="text-justify font-dmmono text-2xl font-normal text-white"
+                    >
+                      Figma ITS EXPO 2023
+                    </h3>
+                    <img src="./dist/arrow/arrow-sm-up.svg" alt="" />
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="w-full px-4 lg:w-1/2">  
-            <div class="flex flex-col justify-center gap-8 mt-6 lg:mt-0">
-              <img src="./dist/portfolio/Landing UKM EXPO.png" alt="">
+          <div class="w-full px-4 lg:w-1/2">
+            <div class="mt-6 flex flex-col justify-center gap-8 lg:mt-0">
+              <img src="./dist/portfolio/Landing UKM EXPO.png" alt="" />
               <div class="flex flex-col items-start gap-8">
-                  <div>
-                <h3 class="text-white text-2xl text-justify font-medium font-dmmono">UKM EXPO 2023</h3>
-                <p class="text-grey opacity-50 text-xl text-justify font-normal font-dmmono">UI/UX Design, Website Design, Design System</p>
-                 </div>
-                 <div>
-                  <a href="https://itsukmexpo.com/" target="_blank" class="porto flex items-start gap-2 self-stretch bg-opacity-0">
-                  <h3 class="text-white text-2xl text-justify font-normal font-dmmono">Visit UKM EXPO 2023</h3>
-                  <img src="./dist/arrow/arrow-sm-up.svg" alt="">
-                </a>
-                  <button class="porto flex items-start gap-2 self-stretch">
-                  <h3 class="text-white text-2xl text-justify font-normal font-dmmono">Figma UKM EXPO 2023</h3>
-                  <img src="./dist/arrow/arrow-sm-up.svg" alt="">
-                </button>
-                   </div>
+                <div>
+                  <h3
+                    class="text-justify font-dmmono text-2xl font-medium text-white"
+                  >
+                    UKM EXPO 2023
+                  </h3>
+                  <p
+                    class="text-justify font-dmmono text-xl font-normal text-grey opacity-50"
+                  >
+                    UI/UX Design, Website Design, Design System
+                  </p>
                 </div>
+                <div>
+                  <a
+                    href="https://itsukmexpo.com/"
+                    target="_blank"
+                    class="porto flex items-start gap-2 self-stretch bg-opacity-0"
+                  >
+                    <h3
+                      class="text-justify font-dmmono text-2xl font-normal text-white"
+                    >
+                      Visit UKM EXPO 2023
+                    </h3>
+                    <img src="./dist/arrow/arrow-sm-up.svg" alt="" />
+                  </a>
+                  <button class="porto flex items-start gap-2 self-stretch">
+                    <h3
+                      class="text-justify font-dmmono text-2xl font-normal text-white"
+                    >
+                      Figma UKM EXPO 2023
+                    </h3>
+                    <img src="./dist/arrow/arrow-sm-up.svg" alt="" />
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="w-full px-4 lg:w-1/2">  
-            <div class="flex flex-col justify-center gap-8 mt-6 lg:mt-14">
-              <img src="./dist/portfolio/Landing Schematics.png" alt="">
+          <div class="w-full px-4 lg:w-1/2">
+            <div class="mt-6 flex flex-col justify-center gap-8 lg:mt-14">
+              <img src="./dist/portfolio/Landing Schematics.png" alt="" />
               <div class="flex flex-col items-start gap-8">
-                  <div>
-                <h3 class="text-white text-2xl text-justify font-medium font-dmmono">Schematics 2023</h3>
-                <p class="text-grey opacity-50 text-xl text-justify font-normal font-dmmono">UI/UX Design, Website Design, Design System</p>
-                 </div>
-                 <div>
-                  <a href="https://schematics-its.com/" target="_blank" class="porto flex items-start gap-2 self-stretch bg-opacity-0">
-                  <h3 class="text-white text-2xl text-justify font-normal font-dmmono">Visit Schematics 2023</h3>
-                  <img src="./dist/arrow/arrow-sm-up.svg" alt="">
-                </a>
-                  <button class="porto flex items-start gap-2 self-stretch">
-                  <h3 class="text-white text-2xl text-justify font-normal font-dmmono">Figma Schematics 2023</h3>
-                  <img src="./dist/arrow/arrow-sm-up.svg" alt="">
-                </button>
-                   </div>
+                <div>
+                  <h3
+                    class="text-justify font-dmmono text-2xl font-medium text-white"
+                  >
+                    Schematics 2023
+                  </h3>
+                  <p
+                    class="text-justify font-dmmono text-xl font-normal text-grey opacity-50"
+                  >
+                    UI/UX Design, Website Design, Design System
+                  </p>
                 </div>
+                <div>
+                  <a
+                    href="https://schematics-its.com/"
+                    target="_blank"
+                    class="porto flex items-start gap-2 self-stretch"
+                  >
+                    <h3
+                      class="text-justify font-dmmono text-2xl font-normal text-white"
+                    >
+                      Visit Schematics 2023
+                    </h3>
+                    <img src="./dist/arrow/arrow-sm-up.svg" alt="" />
+                  </a>
+                  <button class="porto flex items-start gap-2 self-stretch">
+                    <h3
+                      class="text-justify font-dmmono text-2xl font-normal text-white"
+                    >
+                      Figma Schematics 2023
+                    </h3>
+                    <img src="./dist/arrow/arrow-sm-up.svg" alt="" />
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="flex justify-center items-center pt-10">
-          <p class="text-grey text-center opacity-50 text-xl  font-normal font-dmmono">Future me will update this page so be patience...</p>
+        <div class="flex items-center justify-center pt-16">
+          <p
+            class="text-center font-dmmono text-sm font-normal text-grey opacity-50"
+          >
+            Future me will update this page so be patience...
+          </p>
         </div>
       </div>
     </section>
     <!-- Portfolio Ends -->
+    <!-- Contact Starts -->
+    <section id="contact" class="pb-4 pt-[100px]">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="flex flex-col items-start">
+            <h3 class="text-justify font-dmmono text-xl font-normal text-white">
+              Availability:
+            </h3>
+            <a
+              href="mailto:dprihadisetiawan@gmail.com"
+              target="_blank"
+              class="animate-pulse text-justify font-dmmono text-xl font-normal text-green-neon hover:animate-none hover:bg-green-neon hover:text-dark-black"
+            >
+              Open for business. Click to contact me
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Ends -->
+    <!-- Footer Starts -->
+    <footer class="pb-[50px] pt-[100px]">
+      <div class="container">
+        <div class="w-full px-4">
+          <a
+            href="https://www.its.ac.id/"
+            target="_blank"
+            class="text-justify font-dmmono text-xl font-normal text-its-blue"
+            >Institut Teknologi Sepuluh Nopember</a
+          >
+          <p
+            class="text-md max-w-lg text-justify font-dmmono font-normal text-grey"
+          >
+            Teknik Kimia Street - Teknik Informatika Departement Building Campus
+            Institut Teknologi Sepuluh Nopember Surabaya Highway ITS, Sukolilo,
+            Surabaya 60111, Indonesia Surabaya
+          </p>
+
+          <div class="pt-36">
+            <p
+              class="text-md text-center font-dmmono font-normal text-grey opacity-50"
+            >
+              Copyright ©️ 2023 Awan Website
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Ends  -->
+    <script src="dist/js/script.js"></script>
   </body>
 </html>
 
 <script>
-  var TxtType = function(el, toRotate, period) {
-        this.toRotate = toRotate;
-        this.el = el;
-        this.loopNum = 0;
-        this.period = parseInt(period, 10) || 2000;
-        this.txt = '';
-        this.tick();
-        this.isDeleting = false;
-    };
+  var TxtType = function (el, toRotate, period) {
+    this.toRotate = toRotate;
+    this.el = el;
+    this.loopNum = 0;
+    this.period = parseInt(period, 10) || 2000;
+    this.txt = "";
+    this.tick();
+    this.isDeleting = false;
+  };
 
-    TxtType.prototype.tick = function() {
-        var i = this.loopNum % this.toRotate.length;
-        var fullTxt = this.toRotate[i];
+  TxtType.prototype.tick = function () {
+    var i = this.loopNum % this.toRotate.length;
+    var fullTxt = this.toRotate[i];
 
-        if (this.isDeleting) {
-        this.txt = fullTxt.substring(0, this.txt.length - 1);
-        } else {
-        this.txt = fullTxt.substring(0, this.txt.length + 1);
-        }
+    if (this.isDeleting) {
+      this.txt = fullTxt.substring(0, this.txt.length - 1);
+    } else {
+      this.txt = fullTxt.substring(0, this.txt.length + 1);
+    }
 
-        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+    this.el.innerHTML = '<span class="wrap">' + this.txt + "</span>";
 
-        var that = this;
-        var delta = 200 - Math.random() * 100;
+    var that = this;
+    var delta = 200 - Math.random() * 100;
 
-        if (this.isDeleting) { delta /= 2; }
+    if (this.isDeleting) {
+      delta /= 2;
+    }
 
-        if (!this.isDeleting && this.txt === fullTxt) {
-        delta = this.period;
-        this.isDeleting = true;
-        } else if (this.isDeleting && this.txt === '') {
-        this.isDeleting = false;
-        this.loopNum++;
-        delta = 500;
-        }
+    if (!this.isDeleting && this.txt === fullTxt) {
+      delta = this.period;
+      this.isDeleting = true;
+    } else if (this.isDeleting && this.txt === "") {
+      this.isDeleting = false;
+      this.loopNum++;
+      delta = 500;
+    }
 
-        setTimeout(function() {
-        that.tick();
-        }, delta);
-    };
+    setTimeout(function () {
+      that.tick();
+    }, delta);
+  };
 
-    window.onload = function() {
-        var elements = document.getElementsByClassName('typewrite');
-        for (var i=0; i<elements.length; i++) {
-            var toRotate = elements[i].getAttribute('data-type');
-            var period = elements[i].getAttribute('data-period');
-            if (toRotate) {
-              new TxtType(elements[i], JSON.parse(toRotate), period);
-            }
-        }
-        // INJECT CSS
-        var css = document.createElement("style");
-        css.type = "text/css";
-        css.innerHTML = ".typewrite > .wrap { border-right: 0.05em solid #0FFF27}";
-        document.body.appendChild(css);
-    };
+  window.onload = function () {
+    var elements = document.getElementsByClassName("typewrite");
+    for (var i = 0; i < elements.length; i++) {
+      var toRotate = elements[i].getAttribute("data-type");
+      var period = elements[i].getAttribute("data-period");
+      if (toRotate) {
+        new TxtType(elements[i], JSON.parse(toRotate), period);
+      }
+    }
+    // INJECT CSS
+    var css = document.createElement("style");
+    css.type = "text/css";
+    css.innerHTML = ".typewrite > .wrap { border-right: 0.05em solid #0FFF27}";
+    document.body.appendChild(css);
+  };
 </script>
-
