@@ -605,6 +605,10 @@ video {
   display: block;
 }
 
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
 }
@@ -1097,34 +1101,6 @@ html {
   .lg\:bg-dark-black {
     --tw-bg-opacity: 1;
     background-color: rgb(5 5 5 / var(--tw-bg-opacity));
-  }
-
-  .lg\:bg-opacity-80 {
-    --tw-bg-opacity: 0.8;
-  }
-
-  .lg\:bg-opacity-60 {
-    --tw-bg-opacity: 0.6;
-  }
-
-  .lg\:bg-opacity-30 {
-    --tw-bg-opacity: 0.3;
-  }
-
-  .lg\:bg-opacity-20 {
-    --tw-bg-opacity: 0.2;
-  }
-
-  .lg\:bg-opacity-10 {
-    --tw-bg-opacity: 0.1;
-  }
-
-  .lg\:bg-opacity-5 {
-    --tw-bg-opacity: 0.05;
-  }
-
-  .lg\:bg-opacity-\[0\.03\] {
-    --tw-bg-opacity: 0.03;
   }
 
   .lg\:bg-opacity-\[0\.02\] {
