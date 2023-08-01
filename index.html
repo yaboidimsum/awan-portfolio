@@ -13,6 +13,15 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Header Start -->
@@ -659,7 +668,29 @@
               data-aos="fade-up"
               data-aos-duration="500"
             >
-              <img src="./dist/portfolio/Blender 3D Modern House.png" alt="" />
+              <div class="splide">
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide text-white">
+                      <img
+                        src="dist/portfolio/Clay Render Final 2.png"
+                        alt=""
+                      />
+                    </li>
+                    <li class="splide__slide text-white">
+                      <img src="dist/portfolio/Final Render 3.png" alt="" />
+                    </li>
+                    <li class="splide__slide text-white">
+                      <img src="dist/portfolio/Final Eevee 1.png" alt="" />
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- Add the progress bar element -->
+                <div class="my-slider-progress">
+                  <div class="my-slider-progress-bar"></div>
+                </div>
+              </div>
               <div class="flex flex-col items-start gap-8">
                 <div>
                   <h3
@@ -820,7 +851,7 @@
           >
             Last update:
             <span class="text-green-neon"
-              >01/08/2023 0:20 GMT+7 Indonesia, East Jakarta</span
+              >01/08/2023 15:55 GMT+7 Indonesia, East Jakarta</span
             >
           </p>
           <li>
@@ -828,7 +859,7 @@
               <div
                 class="text-justify font-dmmono text-sm font-normal text-grey opacity-50"
               >
-                - Added new portfolio
+                - Added slider on new portfolio
               </div>
             </ul>
             <ul>
@@ -966,4 +997,20 @@
     css.innerHTML = ".typewrite > .wrap { border-right: 0.05em solid #0FFF27}";
     document.body.appendChild(css);
   };
+</script>
+
+<script>
+  var splide = new Splide(".splide");
+  var bar = splide.root.querySelector(".my-slider-progress-bar");
+
+  // Updates the bar width whenever the carousel moves:
+  splide.on("mounted move", function () {
+    var end = splide.Components.Controller.getEnd() + 1;
+    var rate = Math.min((splide.index + 1) / end, 1);
+
+    //Make the bar reset after reaching the end:
+    bar.style.width = String(100 * rate) + "%";
+  });
+
+  splide.mount();
 </script>
