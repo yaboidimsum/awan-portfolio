@@ -13,6 +13,7 @@ module.exports = {
       "its-blue": "#0085FF",
       "green-neon": "#0FFF27",
       "dark-black": "#050505",
+      "udemy-purple": "#A336EE",
       grey: "#9BA4B5",
     },
     boxShadow: {
