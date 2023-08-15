@@ -8,13 +8,11 @@ module.exports = {
     },
     colors: {
       white: "#F1F6F9",
-      // "blue-grey": "#394867",
-      // "dark-blue": "#212A3E",
       "its-blue": "#0085FF",
       "green-neon": "#0FFF27",
       "dark-black": "#050505",
+      "yellow-bright": "#F7DF1E",
       "udemy-purple": "#A336EE",
-      "yellow-js": "#F7DF1E",
       grey: "#9BA4B5",
     },
     boxShadow: {
