@@ -42,7 +42,7 @@ module.exports = {
         // desktop: "1280px",
         // sm: "370px",
         // md: "768px",
-        "2xl": "1920px",
+        "2xl": "2160px",
       },
     },
     plugins: [],
