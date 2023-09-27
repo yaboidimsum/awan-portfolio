@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -191,6 +191,10 @@ select,
 textarea {
   font-family: inherit;
   /* 1 */
+  font-feature-settings: inherit;
+  /* 1 */
+  font-variation-settings: inherit;
+  /* 1 */
   font-size: 100%;
   /* 1 */
   font-weight: inherit;
@@ -338,6 +342,14 @@ ul,
 menu {
   list-style: none;
   margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+
+dialog {
   padding: 0;
 }
 
@@ -560,6 +572,10 @@ video {
   }
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -623,6 +639,10 @@ video {
 
 .h-\[50px\] {
   height: 50px;
+}
+
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .w-\[50px\] {
@@ -725,6 +745,14 @@ video {
 
 .rounded-md {
   border-radius: 0.375rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
 }
 
 .bg-white {
@@ -831,6 +859,26 @@ video {
 
 .pt-\[200px\] {
   padding-top: 200px;
+}
+
+.pb-\[10rem\] {
+  padding-bottom: 10rem;
+}
+
+.pt-\[10rem\] {
+  padding-top: 10rem;
+}
+
+.pb-\[1rem\] {
+  padding-bottom: 1rem;
+}
+
+.pt-\[30rem\] {
+  padding-top: 30rem;
+}
+
+.pt-\[20rem\] {
+  padding-top: 20rem;
 }
 
 .text-center {
